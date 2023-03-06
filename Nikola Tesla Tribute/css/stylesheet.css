@@ -1,0 +1,125 @@
+/* OM namah shivay */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    min-height:100vh;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: antiquewhite;
+    border-left: 3px solid black;
+    border-right: 3px solid black;   
+    padding-bottom: 10px; 
+}
+
+h1{
+    background-color: rgb(21, 6, 10);
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+ul{
+    margin: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+   
+}
+
+li{
+    margin-top: 0px;
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 400;
+    font-size: 17px;   
+}
+
+a:hover {
+    color: rgb(118, 70, 7);
+}
+
+#mainimg{
+    max-width: 800px;
+    min-height: 350px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;    
+    text-align: center; 
+    padding-top: 6px;  
+    background-image: url("../img/nikola\ tesla\ blur.jpg");
+    background-size: 813px;
+    background-position-x: center;
+    background-position-y:-226px;
+    background-repeat: no-repeat;
+}
+#mainimg #figc{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: antiquewhite;
+    text-shadow: 2px 1px rgb(53, 51, 51);
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p, h3, #Quotes{
+    padding: 0px 15px;
+}
+hr{
+    width: 250px;
+    border: .5px solid black;
+    margin: 5px auto;
+}
+
+q{
+    font-size: 18px;
+    
+    
+}
+
+figure{
+    text-align: center;
+    margin-top: 40px;
+}
+figcaption{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#foot p{
+    text-align: center;
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#foot a{
+    margin: 0px;
+    font-weight: bold;
+}
+
